@@ -1,73 +1,33 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
-    <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/signin/">
-
-    <title>Sign up page</title>
-
-
+    <title>Reģistrēšanās</title>
+    <link rel="icon" href="assets/img/download.png">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link href="https://getbootstrap.com/docs/3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-
-    <link href="https://getbootstrap.com/docs/3.3/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-
     <link href="signup.css" rel="stylesheet">
-
-
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-
   </head>
 
-  <body>
+  <body id="body">
 
     <div class="container">
-
       <form class="form-signin">
-        <h2 class="form-signin-heading">Fill in the data</h2>
-
-        <label for="inputFirstName" class="sr-only">First Name</label>
-        <input type="inputfirstname" id="inputFirstName" class="form-control" placeholder="First Name" required autofocus>
-
-        <label for="inputLastName" class="sr-only">Last Name</label>
-        <input type="inputLastName" id="inputLastName" class="form-control" placeholder="Last Name" required>
-
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="inputPassword" id="inputPassword" class="form-control" placeholder="Password" required>
-
-        <label for="inputPasswodConfirm" class="sr-only">Password Confirm</label>
-        <input type="inputPasswodConfirm" id="inputPasswodConfirm" class="form-control" placeholder="Password Confirm" required autofocus>
-
-        <br>
-        
-        <label for="street" class="sr-only">Street</label>
-        <input type="street" id="street" class="form-control" placeholder="Street" required autofocus>
-
-        <label for="city" class="sr-only">City</label>
-        <input type="city" id="city" class="form-control" placeholder="City" required>
-
-        <select class="form-select" aria-label="Default select example">
-          <option selected>Country</option>
-          <option value="1">Latvia</option>
-          <option value="2">Lithuania</option>
-          <option value="3">Estonia</option>
-        </select>
-
-        <label for="postcode" class="sr-only">Postcode</label>
-        <input type="postcode" id="postcode" class="form-control" placeholder="Postcode" required autofocus>
+        <h2 class="form-signin-heading">Ievadiet datus</h2>
+        <input type="inputfirstname" id="inputFirstName" class="form-control" placeholder="Vārds" required autofocus>
+        <input type="inputLastName" id="inputLastName" class="form-control" placeholder="Uzvārds" required>
+        <input type="inputPassword" id="inputPassword" class="form-control" placeholder="Lietotājvārds" required>
+        <input type="inputPassword" id="inputPassword" class="form-control" placeholder="Parole" required>
+        <input type="inputPassword" id="inputPassword" class="form-control" placeholder="E-pasts" required>
+        <input type="inputPassword" id="inputPassword" class="form-control" placeholder="Telefona numurs" required>
+        <input type="inputPasswodConfirm" id="inputPasswodConfirm" class="form-control" placeholder="Atkārtota parole" required autofocus>
         <div class="checkbox">
           <label>
-            <input type="checkbox" value="terms"> Accept terms and conditions
+            <input type="checkbox" value="terms"> Piekrītu lietošanas <a href="termsandconditions.html">noteikumiem</a> (ieteicams izlasīt pirms datu ievadīšanas)
           </label>
         </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
-        <p align="center">Already have an account? <a href="signin.html">Sign-in!</a></p>
+        <p align="center">Jums jau ir savs profils? <a href="index.html">Ieiet!</a></p>
       </form>
 
     </div>

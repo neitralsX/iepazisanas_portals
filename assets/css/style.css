@@ -1,7 +1,11 @@
 #td1 {
-    width: 400px;
+    width: 300px;
 }
 
-body {
-    background-color: blue;
+#body {
+    background-color: rgb(255, 122, 89);
+}
+
+.card {
+    width: 1000px;
 }
