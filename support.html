@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Support</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Contact Support</h1>
+    <form action="send_email.php" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required><br>
+      <input type="email" name="email" placeholder="Your Email" required><br>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br>
+      <input type="submit" value="Send Email">
+    </form>
+  </div>
+  <div style="position:absolute; bottom:10%;">
+  <a href="index.html">Sākums</a>
+  </div>
+</body>
+</html>

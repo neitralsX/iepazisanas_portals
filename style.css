@@ -1,0 +1,146 @@
+/* Global styles */
+body {
+    
+    font-family: Arial, sans-serif;
+    background-color: #212121;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    color: #FF9800;
+    text-align: center;
+  }
+  
+  a {
+    color: #03A9F4;
+    text-decoration: none;
+  }
+  
+  /* Index page */
+  nav {
+    background-color: #FF9800;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  /* Login and Register pages */
+  form {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="number"],
+  input[type="email"],
+  textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #263238;
+    color: #FFFFFF;
+  }
+  
+  input[type="text"]::placeholder,
+  input[type="password"]::placeholder,
+  input[type="number"]::placeholder,
+  input[type="email"]::placeholder,
+  textarea::placeholder {
+    color: #FFFFFF;
+  }
+  
+  input[type="submit"] {
+    background-color: #03A9F4;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #FF9800;
+  }
+  
+  /* Profile page */
+  .profile-details {
+    margin-bottom: 20px;
+  }
+  
+  /* User List page */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Chat page */
+  .chat-messages {
+    max-height: 300px;
+    overflow-y: scroll;
+    background-color: #263238;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Support page */
+  #emailForm {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  textarea {
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #263238;
+    color: #FFFFFF;
+  }
+  
+  textarea::placeholder {
+    color: #FFFFFF;
+  }
+  
+  input[type="submit"] {
+    background-color: #03A9F4;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #FF9800;
+  }
+  
